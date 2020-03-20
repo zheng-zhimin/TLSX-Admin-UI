@@ -236,4 +236,11 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 混帐拉就OK了再执行推操作！
 
+########001:删除远程没用的分支
+git branch -a 查看一下有哪些分支
+git checkout master 切换到主分支 
+git push origin --delete jiahui 删除远程没用的分支
+
+
+
 
